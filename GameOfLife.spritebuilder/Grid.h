@@ -7,7 +7,8 @@
 //
 
 #import "CCSprite.h"
-@interface evolveStep
+
+@interface evolveStep : CCSprite
 @end
 
 @interface Grid : CCSprite
