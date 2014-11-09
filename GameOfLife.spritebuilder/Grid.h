@@ -9,6 +9,7 @@
 #import "CCSprite.h"
 
 @interface evolveStep : CCSprite
+-(void) evolveStep;
 @end
 
 @interface Grid : CCSprite
