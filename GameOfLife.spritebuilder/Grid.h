@@ -7,7 +7,6 @@
 //
 
 #import "CCSprite.h"
-
 @interface Grid : CCSprite
 
 @property (nonatomic, assign) int totalAlive;
