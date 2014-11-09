@@ -66,9 +66,10 @@ static const int GRID_COLUMNS = 10;
 - (Creature *)creatureForTouchPosition:(CGPoint)touchPosition
 {
     //get the row and column that was touched, return the Creature inside the corresponding cell
-    row = 0;
-    column = 0;
-    
+    int row = 0;
+    int column = 0;
+    touchPosition.x = touchPosition.x / self.contentSize.width;
+    touchPosition.y = touchPosition.y / self.contentSize.height;
     return _gridArray[row][column].
 }
 
