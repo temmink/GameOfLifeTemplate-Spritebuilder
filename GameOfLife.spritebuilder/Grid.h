@@ -7,6 +7,9 @@
 //
 
 #import "CCSprite.h"
+@interface evolveStep
+@end
+
 @interface Grid : CCSprite
 
 @property (nonatomic, assign) int totalAlive;
