@@ -68,8 +68,11 @@ static const int GRID_COLUMNS = 10;
     //get the row and column that was touched, return the Creature inside the corresponding cell
     int row = 0;
     int column = 0;
-    touchPosition.x = touchPosition.x / self.contentSize.width;
-    touchPosition.y = touchPosition.y / self.contentSize.height;
+    _cellWidth = self.contentSize.width / GRID_COLUMNS;
+    _cellHeight = self.contentSize.height / GRID_ROWS;
+    
+    touchPosition.x = touchPosition.x / _cellWidth;
+    touchPosition.y = touchPosition.y / _cellHeight;
     return _gridArray[row][column];
 }
 
