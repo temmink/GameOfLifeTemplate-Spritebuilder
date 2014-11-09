@@ -70,7 +70,7 @@ static const int GRID_COLUMNS = 10;
     int column = 0;
     touchPosition.x = touchPosition.x / self.contentSize.width;
     touchPosition.y = touchPosition.y / self.contentSize.height;
-    return _gridArray[row][column].
+    return _gridArray[row][column];
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
