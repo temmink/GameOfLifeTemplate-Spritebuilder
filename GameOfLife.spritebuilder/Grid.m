@@ -152,7 +152,7 @@ for (int i = 0; i < [_gridArray count]; i++)
         }
     }
 }
-
+}
 
 
 - updateCreatures
