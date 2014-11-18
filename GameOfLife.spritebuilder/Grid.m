@@ -158,7 +158,7 @@ for (int i = 0; i < [_gridArray count]; i++)
 }
 }
 
-- void()updateCreatures
+- (void)updateCreatures
 {
     for (int i = 0; i < [_gridArray count]; i++)
     {
